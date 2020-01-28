@@ -1,7 +1,9 @@
-#' ---
-#' output: github_document
-#' ---
-#' 
+02\_wrangle-packages.R
+================
+KyleCrawford
+2020-01-27
+
+``` r
 ## remember to restart R here!
 
 ## create a data frame by reading from data/installed-packages.csv
@@ -9,7 +11,29 @@
 ## idea: try using here::here() to create the file path
 
 dat <- readr::read_csv(here::here("data", "installed-packages.csv"))
+```
 
+    ## Parsed with column specification:
+    ## cols(
+    ##   Package = col_character(),
+    ##   LibPath = col_character(),
+    ##   Version = col_character(),
+    ##   Priority = col_character(),
+    ##   Depends = col_character(),
+    ##   Imports = col_character(),
+    ##   LinkingTo = col_character(),
+    ##   Suggests = col_character(),
+    ##   Enhances = col_character(),
+    ##   License = col_character(),
+    ##   License_is_FOSS = col_character(),
+    ##   License_restricts_use = col_logical(),
+    ##   OS_type = col_logical(),
+    ##   MD5sum = col_logical(),
+    ##   NeedsCompilation = col_character(),
+    ##   Built = col_character()
+    ## )
+
+``` r
 ## filter out the base and recommended packages
 ## keep the variables Package and Built
 ## if you use dplyr, code like this will work:
@@ -44,3 +68,4 @@ readr::write_csv(dat2_freq, here::here("data", "add-on-packages-freqtable.csv"))
 ## YES overwrite the files that are there now
 ## they are old output from me (Jenny)
 ## they are just examples
+```
