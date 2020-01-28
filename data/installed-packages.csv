@@ -1,0 +1,274 @@
+Package,LibPath,Version,Priority,Depends,Imports,LinkingTo,Suggests,Enhances,License,License_is_FOSS,License_restricts_use,OS_type,MD5sum,NeedsCompilation,Built
+askpass,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.1,NA,NA,sys (>= 2.1),NA,testthat,NA,MIT + file LICENSE,NA,NA,NA,NA,yes,3.6.1
+assertthat,C:/Users/KyleCrawford/Documents/R/win-library/3.6,0.2.1,NA,NA,tools,NA,"testthat, covr",NA,GPL-3,NA,NA,NA,NA,no,3.6.1
+babynames,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.0.0,NA,R (>= 2.10),tibble,NA,testthat (>= 2.0.0),NA,CC0,NA,NA,NA,NA,no,3.6.2
+backports,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.1.4,NA,R (>= 3.0.0),utils,NA,NA,NA,GPL-2,NA,NA,NA,NA,yes,3.6.0
+base64enc,C:/Users/KyleCrawford/Documents/R/win-library/3.6,0.1-3,NA,R (>= 2.9.0),NA,NA,NA,png,GPL-2 | GPL-3,NA,NA,NA,NA,yes,3.6.0
+beeswarm,C:/Users/KyleCrawford/Documents/R/win-library/3.6,0.2.3,NA,NA,"stats, graphics, grDevices, utils",NA,NA,NA,Artistic-2.0,NA,NA,NA,NA,no,3.6.0
+BH,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.69.0-1,NA,NA,NA,NA,NA,NA,BSL-1.0,NA,NA,NA,NA,no,3.6.0
+brew,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.0-6,NA,NA,NA,NA,NA,NA,GPL-2,NA,NA,NA,NA,NA,3.6.0
+broom,C:/Users/KyleCrawford/Documents/R/win-library/3.6,0.5.2,NA,R (>= 3.1),"backports, dplyr, generics (>= 0.0.2), methods, nlme, purrr,
+reshape2, stringr, tibble, tidyr",NA,"AER, akima, AUC, bbmle, betareg, biglm, binGroup, boot, brms,
+btergm, car, caret, coda, covr, e1071, emmeans, ergm, gam (>=
+1.15), gamlss, gamlss.data, gamlss.dist, geepack, ggplot2,
+glmnet, gmm, Hmisc, irlba, joineRML, Kendall, knitr, ks,
+Lahman, lavaan, lfe, lme4, lmodel2, lmtest, lsmeans, maps,
+maptools, MASS, Matrix, mclust, mgcv, muhaz, multcomp, network,
+nnet, orcutt (>= 2.2), ordinal, plm, plyr, poLCA, psych,
+quantreg, rgeos, rmarkdown, robust, rsample, rstan, rstanarm,
+sp, speedglm, statnet.common, survey, survival, testthat,
+tseries, xergm, zoo",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.6.1
+callr,C:/Users/KyleCrawford/Documents/R/win-library/3.6,3.3.1,NA,NA,"processx (>= 3.4.0), R6, utils",NA,"cliapp, covr, crayon, knitr, pingr, ps, rmarkdown, rprojroot,
+spelling, testthat, tibble, withr",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.6.1
+cellranger,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.1.0,NA,R (>= 3.0.0),"rematch, tibble",NA,"covr, testthat (>= 1.0.0), knitr, rmarkdown",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.6.1
+cli,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.1.0,NA,R (>= 2.10),"assertthat, crayon (>= 1.3.4), methods, utils",NA,"covr, fansi, mockery, testthat, webshot, withr",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.6.1
+clipr,C:/Users/KyleCrawford/Documents/R/win-library/3.6,0.7.0,NA,NA,utils,NA,"covr, knitr, rmarkdown, rstudioapi (>= 0.5), testthat (>=
+2.0.0)",NA,GPL-3,NA,NA,NA,NA,no,3.6.1
+clisymbols,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.2.0,NA,NA,NA,NA,testthat,NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.6.2
+colorspace,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.4-1,NA,"R (>= 3.0.0), methods","graphics, grDevices, stats",NA,"datasets, utils, KernSmooth, MASS, kernlab, mvtnorm, vcd,
+tcltk, shiny, shinyjs, ggplot2, dplyr, scales, grid, png, jpeg,
+knitr, rmarkdown, RColorBrewer, rcartocolor, scico, viridis,
+wesanderson",NA,BSD_3_clause + file LICENSE,NA,NA,NA,NA,yes,3.6.1
+commonmark,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.7,NA,NA,NA,NA,"curl, testthat, xml2",NA,BSD_2_clause + file LICENSE,NA,NA,NA,NA,yes,3.6.2
+covr,C:/Users/KyleCrawford/Documents/R/win-library/3.6,3.4.0,NA,"R (>= 3.1.0), methods","digest, stats, utils, jsonlite, rex, httr, crayon, withr (>=
+1.0.2), yaml",NA,"R6, knitr, rmarkdown, htmltools, DT (>= 0.2), testthat,
+rlang, rstudioapi (>= 0.2), xml2 (>= 1.0.0), parallel, memoise,
+mockery",NA,GPL-3,NA,NA,NA,NA,yes,3.6.2
+crayon,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.3.4,NA,NA,"grDevices, methods, utils",NA,"mockery, rstudioapi, testthat, withr",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.6.1
+crosstalk,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.0.0,NA,NA,"htmltools (>= 0.3.5), jsonlite, lazyeval, R6, shiny (>= 0.11),
+ggplot2",NA,NA,NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.6.2
+curl,C:/Users/KyleCrawford/Documents/R/win-library/3.6,4.0,NA,R (>= 3.0.0),NA,NA,"askpass, spelling, testthat (>= 1.0.0), knitr, jsonlite,
+rmarkdown, magrittr, httpuv (>= 1.4.4), webutils",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,3.6.1
+DBI,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.0.0,NA,"R (>= 3.0.0), methods",NA,NA,"blob, covr, hms, knitr, magrittr, rprojroot, rmarkdown,
+RSQLite (>= 1.1-2), testthat, xml2",NA,LGPL (>= 2),NA,NA,NA,NA,no,3.6.1
+dbplyr,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.4.2,NA,R (>= 3.1),"assertthat (>= 0.2.0), DBI (>= 1.0.0), dplyr (>= 0.8.0), glue
+(>= 1.2.0), methods, purrr (>= 0.2.5), R6 (>= 2.2.2), rlang (>=
+0.2.0), tibble (>= 1.4.2), tidyselect (>= 0.2.4), utils",NA,"bit64, covr, knitr, Lahman, nycflights13, RMariaDB (>=
+1.0.2), rmarkdown, RMySQL (>= 0.10.11), RPostgreSQL (>= 0.4.1),
+RSQLite (>= 2.1.0), testthat (>= 2.0.0), withr (>= 2.1.2)",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.6.1
+desc,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.2.0,NA,R (>= 3.1.0),"assertthat, utils, R6, crayon, rprojroot",NA,"covr, testthat, whoami, withr",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.6.2
+devtools,C:/Users/KyleCrawford/Documents/R/win-library/3.6,2.2.1,NA,"R (>= 3.0.2), usethis (>= 1.5.0)","callr, cli, covr (>= 3.2.0), crayon, desc, digest, DT,
+ellipsis (>= 0.3.0), glue, git2r (>= 0.23.0), httr (>= 0.4),
+jsonlite, memoise (>= 1.0.0), pkgbuild (>= 1.0.3), pkgload (>=
+1.0.2), rcmdcheck (>= 1.3.3), remotes (>= 2.1.0), rlang,
+roxygen2 (>= 6.1.1), rstudioapi (>= 0.7), rversions,
+sessioninfo (>= 1.1.1), stats, testthat (>= 2.1.1), tools,
+utils, withr",NA,"BiocManager, bitops, curl (>= 0.9), evaluate, foghorn (>=
+1.1.0), gmailr (> 0.7.0), knitr, lintr (>= 0.2.1), mockery,
+pingr, MASS, pkgdown, Rcpp (>= 0.10.0), rhub (>= 1.0.2),
+rmarkdown, spelling (>= 1.1), whisker",NA,GPL (>= 2),NA,NA,NA,NA,no,3.6.2
+digest,C:/Users/KyleCrawford/Documents/R/win-library/3.6,0.6.20,NA,R (>= 3.1.0),NA,NA,"tinytest, knitr, rmarkdown",NA,GPL (>= 2),NA,NA,NA,NA,yes,3.6.1
+dplyr,C:/Users/KyleCrawford/Documents/R/win-library/3.6,0.8.3,NA,R (>= 3.2.0),"assertthat (>= 0.2.0), glue (>= 1.3.0), magrittr (>= 1.5),
+methods, pkgconfig, R6, Rcpp (>= 1.0.1), rlang (>= 0.4.0),
+tibble (>= 2.0.0), tidyselect (>= 0.2.5), utils","BH, plogr (>= 0.2.0), Rcpp (>= 1.0.1)","bit64, callr, covr, crayon (>= 1.3.4), DBI, dbplyr, dtplyr,
+ggplot2, hms, knitr, Lahman, lubridate, MASS, mgcv,
+microbenchmark, nycflights13, rmarkdown, RMySQL, RPostgreSQL,
+RSQLite, testthat, withr, broom, purrr, readr",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,3.6.1
+DT,C:/Users/KyleCrawford/Documents/R/win-library/3.6,0.11,NA,NA,"htmltools (>= 0.3.6), htmlwidgets (>= 1.3), jsonlite (>=
+0.9.16), magrittr, crosstalk, promises",NA,"knitr (>= 1.8), rmarkdown, shiny (>= 1.2.0)",NA,GPL-3 | file LICENSE,NA,NA,NA,NA,no,3.6.2
+ellipsis,C:/Users/KyleCrawford/Documents/R/win-library/3.6,0.3.0,NA,R (>= 3.2),rlang (>= 0.3.0),NA,"covr, testthat",NA,GPL-3,NA,NA,NA,NA,yes,3.6.2
+evaluate,C:/Users/KyleCrawford/Documents/R/win-library/3.6,0.14,NA,R (>= 3.0.2),methods,NA,"testthat, lattice, ggplot2",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.6.1
+fansi,C:/Users/KyleCrawford/Documents/R/win-library/3.6,0.4.0,NA,R (>= 3.1.0),NA,NA,"unitizer, knitr, rmarkdown",NA,GPL (>= 2),NA,NA,NA,NA,yes,3.6.1
+fastmap,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.0.1,NA,NA,NA,NA,testthat (>= 2.1.1),NA,MIT + file LICENSE,NA,NA,NA,NA,yes,3.6.2
+feather,C:/Users/KyleCrawford/Documents/R/win-library/3.6,0.3.5,NA,NA,"Rcpp, tibble (>= 2.0.0), hms",Rcpp,testthat,NA,Apache License 2.0,NA,NA,NA,NA,yes,3.6.1
+forcats,C:/Users/KyleCrawford/Documents/R/win-library/3.6,0.4.0,NA,R (>= 3.1),"ellipsis, magrittr, rlang, tibble",NA,"covr, ggplot2, testthat, readr, knitr, rmarkdown, dplyr",NA,GPL-3,NA,NA,NA,NA,no,3.6.1
+fs,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.3.1,NA,R (>= 3.1),"methods, Rcpp",Rcpp,"testthat, covr, pillar (>= 1.0.0), crayon, rmarkdown, knitr,
+withr, spelling",NA,GPL-3,NA,NA,NA,NA,yes,3.6.2
+fueleconomy,C:/Users/KyleCrawford/Documents/R/win-library/3.6,0.1,NA,R (>= 3.1.0),NA,NA,dplyr,NA,CC0,NA,NA,NA,NA,no,3.6.2
+generics,C:/Users/KyleCrawford/Documents/R/win-library/3.6,0.0.2,NA,R (>= 3.1),methods,NA,"covr, pkgload, testthat, tibble",NA,GPL-2,NA,NA,NA,NA,no,3.6.1
+ggbeeswarm,C:/Users/KyleCrawford/Documents/R/win-library/3.6,0.6.0,NA,"R (>= 3.0.0), ggplot2 (>= 2.0)","beeswarm, vipor",NA,gridExtra,NA,GPL (>= 2),NA,NA,NA,NA,no,3.6.1
+ggplot2,C:/Users/KyleCrawford/Documents/R/win-library/3.6,3.2.1,NA,R (>= 3.2),"digest, grDevices, grid, gtable (>= 0.1.1), lazyeval, MASS,
+mgcv, reshape2, rlang (>= 0.3.0), scales (>= 0.5.0), stats,
+tibble, viridisLite, withr (>= 2.0.0)",NA,"covr, dplyr, ggplot2movies, hexbin, Hmisc, knitr, lattice,
+mapproj, maps, maptools, multcomp, munsell, nlme, profvis,
+quantreg, rgeos, rmarkdown, rpart, sf (>= 0.7-3), svglite (>=
+1.2.0.9001), testthat (>= 0.11.0), vdiffr (>= 0.3.0)",sp,GPL-2 | file LICENSE,NA,NA,NA,NA,no,3.6.1
+ggstance,C:/Users/KyleCrawford/Documents/R/win-library/3.6,0.3.3,NA,R (>= 3.1.0),"ggplot2 (>= 3.2.0), plyr, rlang, withr (>= 2.0.0)",NA,"Hmisc, testthat, vdiffr (>= 0.3.0)",NA,GPL-3,NA,NA,NA,NA,no,3.6.1
+gh,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.0.1,NA,NA,"ini, jsonlite, httr",NA,"covr, pingr, testthat",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.6.2
+git2r,C:/Users/KyleCrawford/Documents/R/win-library/3.6,0.26.1,NA,R (>= 3.1),"graphics, utils",NA,getPass,NA,GPL-2,NA,NA,NA,NA,yes,3.6.2
+glue,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.3.1,NA,R (>= 3.1),methods,NA,"testthat, covr, magrittr, crayon, knitr, rmarkdown, DBI,
+RSQLite, R.utils, forcats, microbenchmark, rprintf, stringr,
+ggplot2, dplyr, withr",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,3.6.1
+gtable,C:/Users/KyleCrawford/Documents/R/win-library/3.6,0.3.0,NA,R (>= 3.0),grid,NA,"covr, testthat, knitr, rmarkdown, ggplot2, profvis",NA,GPL-2,NA,NA,NA,NA,no,3.6.1
+haven,C:/Users/KyleCrawford/Documents/R/win-library/3.6,2.1.1,NA,R (>= 3.2),"forcats (>= 0.2.0), hms, Rcpp (>= 0.11.4), readr (>= 0.1.0),
+tibble",Rcpp,"covr, fs, knitr, rmarkdown, testthat, pillar (>= 1.1.1), cli,
+crayon",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,3.6.1
+here,C:/Users/KyleCrawford/Documents/R/win-library/3.6,0.1,NA,NA,rprojroot (>= 1.2),NA,NA,NA,GPL-3,NA,NA,NA,NA,no,3.6.2
+hexbin,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.27.3,NA,"R (>= 2.0.1), methods","lattice, grid, graphics, grDevices, stats, utils",NA,"marray, affy, Biobase, limma",NA,GPL-2,NA,NA,NA,NA,yes,3.6.1
+highr,C:/Users/KyleCrawford/Documents/R/win-library/3.6,0.8,NA,R (>= 3.2.3),NA,NA,"knitr, testit",NA,GPL,NA,NA,NA,NA,no,3.6.1
+hms,C:/Users/KyleCrawford/Documents/R/win-library/3.6,0.5.0,NA,NA,"methods, pkgconfig, rlang, vctrs (>= 0.2.0)",NA,"crayon, lubridate, pillar (>= 1.1.0), testthat",NA,GPL-3,NA,NA,NA,NA,no,3.6.1
+htmltools,C:/Users/KyleCrawford/Documents/R/win-library/3.6,0.4.0,NA,R (>= 2.14.1),"utils, digest, Rcpp, rlang",Rcpp,"markdown, testthat, withr",knitr,GPL (>= 2),NA,NA,NA,NA,yes,3.6.2
+htmlwidgets,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.5.1,NA,NA,"grDevices, htmltools (>= 0.3), jsonlite (>= 0.9.16), yaml",NA,knitr (>= 1.8),shiny (>= 1.1),MIT + file LICENSE,NA,NA,NA,NA,no,3.6.2
+httpuv,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.5.2,NA,R (>= 2.15.1),"Rcpp (>= 0.11.0), utils, R6, promises, later (>= 0.8.0)","Rcpp, BH, later","testthat, callr, curl, websocket",NA,GPL (>= 2) | file LICENSE,NA,NA,NA,NA,yes,3.6.2
+httr,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.4.1,NA,R (>= 3.2),"curl (>= 3.0.0), jsonlite, mime, openssl (>= 0.8), R6",NA,"covr, httpuv, jpeg, knitr, png, readr, rmarkdown, testthat
+(>= 0.8.0), xml2",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.6.1
+ini,C:/Users/KyleCrawford/Documents/R/win-library/3.6,0.3.1,NA,NA,NA,NA,testthat,NA,GPL-3,NA,NA,NA,NA,no,3.6.2
+jsonlite,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.6,NA,methods,NA,NA,"httr, curl, plyr, testthat, knitr, rmarkdown, R.rsp, sp",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,3.6.1
+knitr,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.24,NA,R (>= 3.2.3),"evaluate (>= 0.10), highr, markdown, stringr (>= 0.6), yaml
+(>= 2.1.19), methods, xfun, tools",NA,"formatR, testit, digest, rgl (>= 0.95.1201), codetools,
+rmarkdown, htmlwidgets (>= 0.7), webshot, tikzDevice (>= 0.10),
+tinytex, reticulate (>= 1.4), JuliaCall (>= 0.11.1), magick,
+png, jpeg, gifski, xml2 (>= 1.2.0), httr, DBI (>= 0.4-1),
+showtext, tibble, styler",NA,GPL,NA,NA,NA,NA,no,3.6.1
+labeling,C:/Users/KyleCrawford/Documents/R/win-library/3.6,0.3,NA,NA,NA,NA,NA,NA,MIT + file LICENSE | Unlimited,NA,NA,NA,NA,no,3.6.0
+Lahman,C:/Users/KyleCrawford/Documents/R/win-library/3.6,7.0-1,NA,R (>= 2.10),dplyr,NA,"lattice, ggplot2, googleVis, data.table, vcd, reshape2,
+tidyr, zipcode, knitr, rmarkdown, car",NA,GPL,NA,NA,NA,NA,no,3.6.2
+later,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.0.0,NA,NA,"Rcpp (>= 0.12.9), rlang","Rcpp, BH","knitr, rmarkdown, testthat",NA,GPL (>= 2),NA,NA,NA,NA,yes,3.6.2
+lazyeval,C:/Users/KyleCrawford/Documents/R/win-library/3.6,0.2.2,NA,R (>= 3.1.0),NA,NA,"knitr, rmarkdown (>= 0.2.65), testthat, covr",NA,GPL-3,NA,NA,NA,NA,yes,3.6.1
+lubridate,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.7.4,NA,"methods, R (>= 3.0.0)","stringr, Rcpp (>= 0.12.13),","Rcpp,","testthat, knitr, covr","chron, fts, timeSeries, timeDate, tis, tseries, xts, zoo",GPL (>= 2),NA,NA,NA,NA,yes,3.6.1
+lvplot,C:/Users/KyleCrawford/Documents/R/win-library/3.6,0.2.0,NA,R (>= 2.14),"ggplot2 (>= 2.0.0), grid, RColorBrewer",NA,depth,NA,GPL (>= 2),NA,NA,NA,NA,no,3.6.1
+magrittr,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.5,NA,NA,NA,NA,"testthat, knitr",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.6.1
+maps,C:/Users/KyleCrawford/Documents/R/win-library/3.6,3.3.0,NA,R (>= 3.0.0),"graphics, utils",NA,"mapproj (>= 1.2-0), mapdata (>= 2.3.0), sp, maptools,
+rnaturalearth",NA,GPL-2,NA,NA,NA,NA,yes,3.6.1
+markdown,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.1,NA,R (>= 2.11.1),"utils, xfun, mime (>= 0.3)",NA,"knitr, RCurl",NA,GPL-2,NA,NA,NA,NA,yes,3.6.1
+memoise,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.1.0,NA,NA,digest (>= 0.6.3),NA,"testthat, aws.s3, httr, covr",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.6.2
+mime,C:/Users/KyleCrawford/Documents/R/win-library/3.6,0.7,NA,NA,tools,NA,NA,NA,GPL,NA,NA,NA,NA,yes,3.6.0
+modelr,C:/Users/KyleCrawford/Documents/R/win-library/3.6,0.1.5,NA,R (>= 3.2),"broom, dplyr, magrittr, purrr (>= 0.2.2), rlang (>= 0.2.0),
+tibble, tidyr (>= 0.8.0)",NA,"compiler, covr, ggplot2, testthat",NA,GPL-3,NA,NA,NA,NA,no,3.6.1
+munsell,C:/Users/KyleCrawford/Documents/R/win-library/3.6,0.5.0,NA,NA,"colorspace, methods",NA,"ggplot2, testthat",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.6.1
+nasaweather,C:/Users/KyleCrawford/Documents/R/win-library/3.6,0.1,NA,R (>= 3.1.0),NA,NA,NA,NA,GPL-3,NA,NA,NA,NA,no,3.6.0
+nycflights13,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.0.0,NA,R (>= 2.10),tibble,NA,dplyr,NA,CC0,NA,NA,NA,NA,no,3.6.1
+openssl,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.4.1,NA,NA,askpass,NA,"testthat, digest, knitr, rmarkdown, jsonlite, jose, sodium",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,3.6.1
+pillar,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.4.2,NA,NA,"cli, crayon (>= 1.3.4), fansi, rlang (>= 0.3.0), utf8 (>=
+1.1.0), vctrs",NA,"knitr, lubridate, testthat, withr",NA,GPL-3,NA,NA,NA,NA,no,3.6.1
+pkgbuild,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.0.6,NA,R (>= 3.1),"callr (>= 3.2.0), cli, crayon, desc, prettyunits, R6,
+rprojroot, withr (>= 2.1.2)",NA,"Rcpp, testthat, covr",NA,GPL-3,NA,NA,NA,NA,no,3.6.2
+pkgconfig,C:/Users/KyleCrawford/Documents/R/win-library/3.6,2.0.2,NA,NA,utils,NA,"covr, testthat, disposables (>= 1.0.3)",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.6.1
+pkgload,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.0.2,NA,NA,"desc, methods, pkgbuild, rlang, rprojroot, rstudioapi, utils,
+withr",NA,"bitops, covr, Rcpp, testthat",NA,GPL-3,NA,NA,NA,NA,yes,3.6.2
+plogr,C:/Users/KyleCrawford/Documents/R/win-library/3.6,0.2.0,NA,NA,NA,NA,Rcpp,NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.6.1
+plyr,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.8.4,NA,R (>= 3.1.0),Rcpp (>= 0.11.0),Rcpp,"abind, testthat, tcltk, foreach, doParallel, itertools,
+iterators, covr",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,3.6.1
+praise,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.0.0,NA,NA,NA,NA,testthat,NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.6.2
+prettyunits,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.0.2,NA,NA,"magrittr, assertthat, methods",NA,testthat,NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.6.1
+processx,C:/Users/KyleCrawford/Documents/R/win-library/3.6,3.4.1,NA,NA,"ps (>= 1.2.0), R6, utils",NA,"callr (>= 3.2.0), codetools, covr, crayon, curl, debugme,
+parallel, testthat, withr",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,3.6.1
+progress,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.2.2,NA,NA,"hms, prettyunits, R6, crayon",NA,"Rcpp, testthat, withr",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.6.1
+promises,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.1.0,NA,NA,"R6, Rcpp, later, rlang, stats, magrittr","later, Rcpp","testthat, future, knitr, rmarkdown",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,3.6.2
+ps,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.3.0,NA,R (>= 3.1),utils,NA,"callr, covr, curl, pingr, processx (>= 3.1.0), R6, rlang,
+testthat, tibble",NA,BSD_3_clause + file LICENSE,NA,NA,NA,NA,yes,3.6.1
+purrr,C:/Users/KyleCrawford/Documents/R/win-library/3.6,0.3.3,NA,R (>= 3.2),"magrittr (>= 1.5), rlang (>= 0.3.1)",NA,"covr, crayon, dplyr (>= 0.7.8), knitr, rmarkdown, testthat,
+tibble, tidyselect",NA,GPL-3 | file LICENSE,NA,NA,NA,NA,yes,3.6.2
+R6,C:/Users/KyleCrawford/Documents/R/win-library/3.6,2.4.0,NA,R (>= 3.0),NA,NA,"knitr, microbenchmark, pryr, testthat, ggplot2, scales",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.6.1
+rcmdcheck,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.3.3,NA,NA,"callr (>= 3.1.1.9000), cli (>= 1.1.0), crayon, desc (>=
+1.2.0), digest, pkgbuild, prettyunits, R6, rprojroot,
+sessioninfo (>= 1.1.1), utils, withr, xopen",NA,"covr, knitr, mockery, rmarkdown, testthat",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.6.2
+RColorBrewer,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.1-2,NA,R (>= 2.0.0),NA,NA,NA,NA,Apache License 2.0,NA,NA,NA,NA,no,3.6.0
+Rcpp,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.0.2,NA,R (>= 3.0.0),"methods, utils",NA,"RUnit, inline, rbenchmark, knitr, rmarkdown, pinp, pkgKitten
+(>= 0.1.2)",NA,GPL (>= 2),NA,NA,NA,NA,yes,3.6.1
+readr,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.3.1,NA,R (>= 3.1),"Rcpp (>= 0.12.0.5), tibble, hms (>= 0.4.1), R6, clipr, crayon,
+methods","Rcpp, BH","curl, testthat, knitr, rmarkdown, stringi, covr, spelling",NA,GPL (>= 2) | file LICENSE,NA,NA,NA,NA,yes,3.6.1
+readxl,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.3.1,NA,NA,"cellranger, Rcpp (>= 0.12.18), tibble (>= 1.3.1), utils","progress, Rcpp","covr, knitr, rmarkdown, rprojroot (>= 1.1), testthat",NA,GPL-3,NA,NA,NA,NA,yes,3.6.1
+rematch,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.0.1,NA,NA,NA,NA,"covr, testthat",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.6.1
+remotes,C:/Users/KyleCrawford/Documents/R/win-library/3.6,2.1.0,NA,R (>= 3.0.0),"methods, stats, tools, utils",NA,"brew, callr, codetools, curl, covr, git2r (>= 0.23.0), knitr,
+mockery, pkgbuild (>= 1.0.1), pingr, rmarkdown, rprojroot,
+testthat, withr",NA,GPL (>= 2),NA,NA,NA,NA,no,3.6.2
+reprex,C:/Users/KyleCrawford/Documents/R/win-library/3.6,0.3.0,NA,R (>= 3.1),"callr (>= 2.0.0), clipr (>= 0.4.0), fs, rlang, rmarkdown,
+utils, whisker, withr",NA,"covr, devtools, fortunes, knitr, miniUI, rprojroot,
+rstudioapi, shiny, styler (>= 1.0.2), testthat (>= 2.0.0)",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.6.1
+reshape2,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.4.3,NA,R (>= 3.1),"plyr (>= 1.8.1), Rcpp, stringr",Rcpp,"covr, lattice, testthat (>= 0.8.0)",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,3.6.1
+rex,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.1.2,NA,NA,"magrittr, lazyeval",NA,"testthat, knitr, rmarkdown, dplyr, ggplot2, Hmisc, stringr,
+rvest, roxygen2, covr",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.6.2
+rJava,C:/Users/KyleCrawford/Documents/R/win-library/3.6,0.9-11,NA,"R (>= 2.5.0), methods",NA,NA,NA,NA,GPL-2,NA,NA,NA,NA,yes,3.6.0
+RJDBC,C:/Users/KyleCrawford/Documents/R/win-library/3.6,0.2-7.1,NA,"methods, DBI, rJava (>= 0.4-15), R (>= 2.4.0)",NA,NA,NA,NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.6.2
+rlang,C:/Users/KyleCrawford/Documents/R/win-library/3.6,0.4.2,NA,R (>= 3.2.0),NA,NA,"cli, covr, crayon, magrittr, methods, pillar, rmarkdown,
+testthat (>= 2.3.0)",NA,GPL-3,NA,NA,NA,NA,yes,3.6.2
+rmarkdown,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.15,NA,R (>= 3.0),"tools, utils, knitr (>= 1.22), yaml (>= 2.1.19), htmltools (>=
+0.3.5), evaluate (>= 0.13), base64enc, jsonlite, mime, tinytex
+(>= 0.11), xfun, methods, stringr (>= 1.2.0)",NA,"shiny (>= 0.11), tufte, testthat, digest, dygraphs, tibble,
+fs, pkgdown, callr (>= 2.0.0)",NA,GPL-3,NA,NA,NA,NA,no,3.6.1
+roxygen2,C:/Users/KyleCrawford/Documents/R/win-library/3.6,7.0.2,NA,R (>= 3.2),"brew, commonmark, desc (>= 1.2.0), digest, methods, pkgload
+(>= 1.0.2), purrr (>= 0.3.3), R6 (>= 2.1.2), Rcpp (>= 0.11.0),
+rlang, stringi, stringr (>= 1.0.0), utils, xml2",Rcpp,"covr, devtools, knitr, rmarkdown, testthat (>= 2.1.0),
+R.methodsS3, R.oo",NA,GPL (>= 2),NA,NA,NA,NA,yes,3.6.2
+rprojroot,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.3-2,NA,R (>= 3.0.0),backports,NA,"testthat, mockr, knitr, withr, rmarkdown",NA,GPL-3,NA,NA,NA,NA,no,3.6.1
+rstudioapi,C:/Users/KyleCrawford/Documents/R/win-library/3.6,0.10,NA,NA,NA,NA,"testthat, knitr, rmarkdown",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.6.1
+rversions,C:/Users/KyleCrawford/Documents/R/win-library/3.6,2.0.1,NA,NA,"curl, utils, xml2 (>= 1.0.0)",NA,"mockery, testthat",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.6.2
+rvest,C:/Users/KyleCrawford/Documents/R/win-library/3.6,0.3.4,NA,"R (>= 3.2), xml2","httr (>= 0.5), magrittr, selectr",NA,"covr, knitr, png, rmarkdown, spelling, stringi (>= 0.3.1),
+testthat",NA,GPL-3,NA,NA,NA,NA,no,3.6.1
+scales,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.0.0,NA,R (>= 3.1),"labeling, munsell (>= 0.5), R6, RColorBrewer, Rcpp,
+viridisLite",Rcpp,"dichromat, bit64, covr, hms, testthat (>= 2.0)",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,3.6.1
+selectr,C:/Users/KyleCrawford/Documents/R/win-library/3.6,0.4-1,NA,R (>= 3.0),"methods, stringr, R6",NA,"testthat, XML, xml2",NA,BSD_3_clause + file LICENCE,NA,NA,NA,NA,no,3.6.1
+sessioninfo,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.1.1,NA,NA,"cli, tools, utils, withr",NA,"callr, covr, mockery, testthat",NA,GPL-2,NA,NA,NA,NA,no,3.6.2
+shiny,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.4.0,NA,"R (>= 3.0.2), methods","utils, grDevices, httpuv (>= 1.5.2), mime (>= 0.3), jsonlite
+(>= 0.9.16), xtable, digest, htmltools (>= 0.4.0), R6 (>= 2.0),
+sourcetools, later (>= 1.0.0), promises (>= 1.1.0), tools,
+crayon, rlang (>= 0.4.0), fastmap (>= 1.0.0)",NA,"datasets, Cairo (>= 1.5-5), testthat (>= 2.1.1), knitr (>=
+1.6), markdown, rmarkdown, ggplot2, reactlog (>= 1.0.0),
+magrittr, yaml",NA,GPL-3 | file LICENSE,NA,NA,NA,NA,no,3.6.2
+sourcetools,C:/Users/KyleCrawford/Documents/R/win-library/3.6,0.1.7,NA,R (>= 3.0.2),NA,NA,testthat,NA,MIT + file LICENSE,NA,NA,NA,NA,yes,3.6.2
+stringi,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.4.3,NA,R (>= 2.14),"tools, utils, stats",NA,NA,NA,file LICENSE,yes,NA,NA,NA,yes,3.6.0
+stringr,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.4.0,NA,R (>= 3.1),"glue (>= 1.2.0), magrittr, stringi (>= 1.1.7)",NA,"covr, htmltools, htmlwidgets, knitr, rmarkdown, testthat",NA,GPL-2 | file LICENSE,NA,NA,NA,NA,no,3.6.1
+sys,C:/Users/KyleCrawford/Documents/R/win-library/3.6,3.2,NA,NA,NA,NA,"unix (>= 1.4), spelling, testthat",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,3.6.1
+testthat,C:/Users/KyleCrawford/Documents/R/win-library/3.6,2.3.1,NA,R (>= 3.1),"cli, crayon (>= 1.3.4), digest, ellipsis, evaluate, magrittr,
+methods, pkgload, praise, R6 (>= 2.2.0), rlang (>= 0.4.1),
+withr (>= 2.0.0)",NA,"covr, curl (>= 0.9.5), devtools, knitr, rmarkdown, usethis,
+vctrs (>= 0.1.0), xml2",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,3.6.2
+tibble,C:/Users/KyleCrawford/Documents/R/win-library/3.6,2.1.3,NA,R (>= 3.1.0),"cli, crayon (>= 1.3.4), fansi (>= 0.4.0), methods, pillar (>=
+1.3.1), pkgconfig, rlang (>= 0.3.0), utils",NA,"bench, covr, dplyr, htmltools, import, knitr, mockr,
+nycflights13, rmarkdown, testthat, withr",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,3.6.1
+tidyr,C:/Users/KyleCrawford/Documents/R/win-library/3.6,0.8.3,NA,R (>= 3.1),"dplyr (>= 0.7.0), glue, magrittr, purrr, Rcpp, rlang, stringi,
+tibble, tidyselect (>= 0.2.5), utils",Rcpp,"covr, gapminder, knitr, rmarkdown, testthat",NA,MIT + file LICENSE,NA,NA,NA,NA,yes,3.6.1
+tidyselect,C:/Users/KyleCrawford/Documents/R/win-library/3.6,0.2.5,NA,R (>= 3.1),"glue (>= 1.3.0), purrr, rlang (>= 0.2.2), Rcpp (>= 0.12.0)","Rcpp (>= 0.12.0),","covr, dplyr, testthat",NA,GPL-3,NA,NA,NA,NA,yes,3.6.1
+tidyverse,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.2.1,NA,NA,"broom (>= 0.4.2), cli (>= 1.0.0), crayon (>= 1.3.4), dplyr (>=
+0.7.4), dbplyr (>= 1.1.0), forcats (>= 0.2.0), ggplot2 (>=
+2.2.1), haven (>= 1.1.0), hms (>= 0.3), httr (>= 1.3.1),
+jsonlite (>= 1.5), lubridate (>= 1.7.1), magrittr (>= 1.5),
+modelr (>= 0.1.1), purrr (>= 0.2.4), readr (>= 1.1.1), readxl
+(>= 1.0.0), reprex (>= 0.1.1), rlang (>= 0.1.4), rstudioapi (>=
+0.7), rvest (>= 0.3.2), stringr (>= 1.2.0), tibble (>= 1.3.4),
+tidyr (>= 0.7.2), xml2 (>= 1.1.1)",NA,"feather (>= 0.3.1), knitr (>= 1.17), rmarkdown (>= 1.7.4)",NA,GPL-3 | file LICENSE,NA,NA,NA,NA,no,3.6.1
+tinytex,C:/Users/KyleCrawford/Documents/R/win-library/3.6,0.15,NA,NA,xfun (>= 0.5),NA,"testit, rstudioapi",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.6.1
+usethis,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.5.1,NA,R (>= 3.2),"clipr (>= 0.3.0), clisymbols, crayon, curl (>= 2.7), desc, fs
+(>= 1.3.0), gh, git2r (>= 0.23), glue (>= 1.3.0), purrr, rlang,
+rprojroot (>= 1.2), rstudioapi, stats, utils, whisker, withr,
+yaml",NA,"covr, knitr, magick, pkgdown (>= 1.1.0), rmarkdown, roxygen2,
+spelling (>= 1.2), styler (>= 1.0.2), testthat (>= 2.1.0)",NA,GPL-3,NA,NA,NA,NA,no,3.6.2
+utf8,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.1.4,NA,R (>= 2.10),NA,NA,"knitr, rmarkdown, testthat",NA,Apache License (== 2.0) | file LICENSE,NA,NA,NA,NA,yes,3.6.1
+vctrs,C:/Users/KyleCrawford/Documents/R/win-library/3.6,0.2.0,NA,R (>= 3.2),"backports, ellipsis (>= 0.2.0), digest, glue, rlang (>=
+0.4.0), zeallot",NA,"bit64, covr, crayon, generics, knitr, pillar (>= 1.4.1),
+pkgdown, rmarkdown, testthat, tibble",NA,GPL-3,NA,NA,NA,NA,yes,3.6.1
+vipor,C:/Users/KyleCrawford/Documents/R/win-library/3.6,0.4.5,NA,R (>= 3.0.0),"stats, graphics",NA,"testthat, beeswarm, lattice, ggplot2, beanplot, vioplot,
+ggbeeswarm,",NA,GPL (>= 2),NA,NA,NA,NA,no,3.6.1
+viridisLite,C:/Users/KyleCrawford/Documents/R/win-library/3.6,0.3.0,NA,R (>= 2.10),NA,NA,"hexbin (>= 1.27.0), ggplot2 (>= 1.0.1), testthat, covr",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.6.1
+whisker,C:/Users/KyleCrawford/Documents/R/win-library/3.6,0.3-2,NA,NA,NA,NA,markdown,NA,GPL-3,NA,NA,NA,NA,no,3.6.1
+withr,C:/Users/KyleCrawford/Documents/R/win-library/3.6,2.1.2,NA,R (>= 3.0.2),"stats, graphics, grDevices",NA,"testthat, covr, lattice, DBI, RSQLite, methods, knitr,
+rmarkdown",NA,GPL (>= 2),NA,NA,NA,NA,no,3.6.1
+xfun,C:/Users/KyleCrawford/Documents/R/win-library/3.6,0.9,NA,NA,"stats, tools",NA,"testit, parallel, rstudioapi, tinytex, mime, markdown, knitr,
+htmltools, base64enc, remotes, rmarkdown",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.6.1
+xml2,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.2.2,NA,R (>= 3.1.0),"Rcpp, methods",Rcpp (>= 0.12.12),"covr, curl, httr, knitr, magrittr, mockery, rmarkdown,
+testthat (>= 2.1.0)",NA,GPL (>= 2),NA,NA,NA,NA,yes,3.6.1
+xopen,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.0.0,NA,R (>= 3.1),processx,NA,"ps, testthat",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.6.2
+xtable,C:/Users/KyleCrawford/Documents/R/win-library/3.6,1.8-4,NA,R (>= 2.10.0),"stats, utils",NA,"knitr, plm, zoo, survival",NA,GPL (>= 2),NA,NA,NA,NA,no,3.6.2
+yaml,C:/Users/KyleCrawford/Documents/R/win-library/3.6,2.2.0,NA,NA,NA,NA,RUnit,NA,BSD_3_clause + file LICENSE,NA,NA,NA,NA,yes,3.6.0
+zeallot,C:/Users/KyleCrawford/Documents/R/win-library/3.6,0.1.0,NA,NA,NA,NA,"testthat, knitr, rmarkdown, purrr, magrittr",NA,MIT + file LICENSE,NA,NA,NA,NA,no,3.6.1
+base,C:/Program Files/R/R-3.6.1/library,3.6.1,base,NA,NA,NA,methods,NA,Part of R 3.6.1,NA,NA,NA,NA,NA,3.6.1
+boot,C:/Program Files/R/R-3.6.1/library,1.3-22,recommended,"R (>= 3.0.0), graphics, stats",NA,NA,"MASS, survival",NA,Unlimited,NA,NA,NA,NA,no,3.6.1
+class,C:/Program Files/R/R-3.6.1/library,7.3-15,recommended,"R (>= 3.0.0), stats, utils",MASS,NA,NA,NA,GPL-2 | GPL-3,NA,NA,NA,NA,yes,3.6.1
+cluster,C:/Program Files/R/R-3.6.1/library,2.1.0,recommended,R (>= 3.3.0),"graphics, grDevices, stats, utils",NA,"MASS, Matrix",NA,GPL (>= 2),NA,NA,NA,NA,yes,3.6.1
+codetools,C:/Program Files/R/R-3.6.1/library,0.2-16,recommended,R (>= 2.1),NA,NA,NA,NA,GPL,NA,NA,NA,NA,no,3.6.1
+compiler,C:/Program Files/R/R-3.6.1/library,3.6.1,base,NA,NA,NA,NA,NA,Part of R 3.6.1,NA,NA,NA,NA,NA,3.6.1
+datasets,C:/Program Files/R/R-3.6.1/library,3.6.1,base,NA,NA,NA,NA,NA,Part of R 3.6.1,NA,NA,NA,NA,NA,3.6.1
+foreign,C:/Program Files/R/R-3.6.1/library,0.8-71,recommended,R (>= 3.0.0),"methods, utils, stats",NA,NA,NA,GPL (>= 2),NA,NA,NA,NA,yes,3.6.1
+graphics,C:/Program Files/R/R-3.6.1/library,3.6.1,base,NA,grDevices,NA,NA,NA,Part of R 3.6.1,NA,NA,NA,NA,yes,3.6.1
+grDevices,C:/Program Files/R/R-3.6.1/library,3.6.1,base,NA,NA,NA,KernSmooth,NA,Part of R 3.6.1,NA,NA,NA,NA,yes,3.6.1
+grid,C:/Program Files/R/R-3.6.1/library,3.6.1,base,NA,"grDevices, utils",NA,lattice,NA,Part of R 3.6.1,NA,NA,NA,NA,yes,3.6.1
+KernSmooth,C:/Program Files/R/R-3.6.1/library,2.23-15,recommended,"R (>= 2.5.0), stats",NA,NA,MASS,NA,Unlimited,NA,NA,NA,NA,yes,3.6.1
+lattice,C:/Program Files/R/R-3.6.1/library,0.20-38,recommended,R (>= 3.0.0),"grid, grDevices, graphics, stats, utils",NA,"KernSmooth, MASS, latticeExtra",chron,GPL (>= 2),NA,NA,NA,NA,yes,3.6.1
+MASS,C:/Program Files/R/R-3.6.1/library,7.3-51.4,recommended,"R (>= 3.1.0), grDevices, graphics, stats, utils",methods,NA,"lattice, nlme, nnet, survival",NA,GPL-2 | GPL-3,NA,NA,NA,NA,yes,3.6.1
+Matrix,C:/Program Files/R/R-3.6.1/library,1.2-17,recommended,R (>= 3.2.0),"methods, graphics, grid, stats, utils, lattice",NA,"expm, MASS","MatrixModels, graph, SparseM, sfsmisc",GPL (>= 2) | file LICENCE,NA,NA,NA,NA,yes,3.6.1
+methods,C:/Program Files/R/R-3.6.1/library,3.6.1,base,NA,"utils, stats",NA,codetools,NA,Part of R 3.6.1,NA,NA,NA,NA,yes,3.6.1
+mgcv,C:/Program Files/R/R-3.6.1/library,1.8-28,recommended,"R (>= 2.14.0), nlme (>= 3.1-64)","methods, stats, graphics, Matrix, splines, utils",NA,"parallel, survival, MASS",NA,GPL (>= 2),NA,NA,NA,NA,yes,3.6.1
+nlme,C:/Program Files/R/R-3.6.1/library,3.1-140,recommended,R (>= 3.4.0),"graphics, stats, utils, lattice",NA,"Hmisc, MASS",NA,GPL (>= 2) | file LICENCE,NA,NA,NA,NA,yes,3.6.1
+nnet,C:/Program Files/R/R-3.6.1/library,7.3-12,recommended,"R (>= 2.14.0), stats, utils",NA,NA,MASS,NA,GPL-2 | GPL-3,NA,NA,NA,NA,yes,3.6.1
+parallel,C:/Program Files/R/R-3.6.1/library,3.6.1,base,NA,"tools, compiler",NA,methods,"snow, nws, Rmpi",Part of R 3.6.1,NA,NA,NA,NA,yes,3.6.1
+rpart,C:/Program Files/R/R-3.6.1/library,4.1-15,recommended,"R (>= 2.15.0), graphics, stats, grDevices",NA,NA,survival,NA,GPL-2 | GPL-3,NA,NA,NA,NA,yes,3.6.1
+spatial,C:/Program Files/R/R-3.6.1/library,7.3-11,recommended,"R (>= 3.0.0), graphics, stats, utils",NA,NA,MASS,NA,GPL-2 | GPL-3,NA,NA,NA,NA,yes,3.6.1
+splines,C:/Program Files/R/R-3.6.1/library,3.6.1,base,NA,"graphics, stats",NA,"Matrix, methods",NA,Part of R 3.6.1,NA,NA,NA,NA,yes,3.6.1
+stats,C:/Program Files/R/R-3.6.1/library,3.6.1,base,NA,"utils, grDevices, graphics",NA,"MASS, Matrix, SuppDists, methods, stats4",NA,Part of R 3.6.1,NA,NA,NA,NA,yes,3.6.1
+stats4,C:/Program Files/R/R-3.6.1/library,3.6.1,base,NA,"graphics, methods, stats",NA,NA,NA,Part of R 3.6.1,NA,NA,NA,NA,NA,3.6.1
+survival,C:/Program Files/R/R-3.6.1/library,2.44-1.1,recommended,R (>= 2.13.0),"graphics, Matrix, methods, splines, stats, utils",NA,NA,NA,LGPL (>= 2),NA,NA,NA,NA,yes,3.6.1
+tcltk,C:/Program Files/R/R-3.6.1/library,3.6.1,base,NA,utils,NA,NA,NA,Part of R 3.6.1,NA,NA,NA,NA,yes,3.6.1
+tools,C:/Program Files/R/R-3.6.1/library,3.6.1,base,NA,NA,NA,"codetools, methods, xml2, curl, commonmark",NA,Part of R 3.6.1,NA,NA,NA,NA,yes,3.6.1
+translations,C:/Program Files/R/R-3.6.1/library,3.6.1,NA,NA,NA,NA,NA,NA,Part of R 3.6.1,NA,NA,NA,NA,NA,3.6.1
+utils,C:/Program Files/R/R-3.6.1/library,3.6.1,base,NA,NA,NA,"methods, xml2, commonmark",NA,Part of R 3.6.1,NA,NA,NA,NA,yes,3.6.1

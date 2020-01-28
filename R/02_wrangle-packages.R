@@ -1,3 +1,7 @@
+#' ---
+#' output: github_document
+#' ---
+#' 
 ## remember to restart R here!
 
 ## create a data frame by reading from data/installed-packages.csv

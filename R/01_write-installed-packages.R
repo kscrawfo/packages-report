@@ -1,3 +1,7 @@
+#' ---
+#' output: github_document
+#' ---
+
 ## deja vu from earlier!
 
 ## create a data frame of your installed packages
