@@ -1,7 +1,9 @@
-#' ---
-#' output: github_document
-#' ---
+03\_barchart-packages-built.R
+================
+KyleCrawford
+2020-01-27
 
+``` r
 ## remember to restart R here!
 
 ## make a barchart from the frequency table in data/add-on-packages-freqtable.csv
@@ -11,12 +13,24 @@
 ## idea: try using here::here() to create the file path
 
 pckg_freqtable <- readr::read_csv(here::here("data", "add-on-packages-freqtable.csv"))
+```
 
+    ## Parsed with column specification:
+    ## cols(
+    ##   Built = col_character(),
+    ##   n = col_double(),
+    ##   prop = col_double()
+    ## )
+
+``` r
 pckg_freqtable %>%
   ggplot2::ggplot(ggplot2::aes(x = Built, y = n)) +
   ggplot2::geom_col()
+```
 
+![](03_barchart-packages-built_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
 
+``` r
 ## if you use ggplot2, code like this will work:
 # ggplot(apt_freqtable, aes(x = Built, y = n)) +
 #   geom_col()
@@ -26,6 +40,11 @@ pckg_freqtable %>%
 ## idea: try using here::here() to create the file path
 
 ggplot2::ggsave(here::here("figs","built-barchart.png"))
+```
 
+    ## Saving 7 x 5 in image
+
+``` r
 ## YES overwrite the file that is there now
 ## that's old output from me (Jenny)
+```
